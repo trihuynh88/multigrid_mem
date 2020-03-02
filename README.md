@@ -33,7 +33,7 @@ See the [project page](http://people.cs.uchicago.edu/~trihuynh/multigrid_mem/) f
 
 **MNIST Associative Recall & Classification:**<br/>
 Top row visualizes the input sequence. Bottom row shows the query image and the predicted output class of the following digit aligned to their corresponding positions in the top row.<br/>
-<img src="./figures/mnist_recall_vis.jpg" width="500"/>
+<img src="./figures/mnist_recall_vis.jpg" width="800"/>
 
 
 ## Acknowledgement
