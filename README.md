@@ -9,8 +9,8 @@ The repository contains sample implementations for the [Multigrid Neural Memory]
 
 ## Content
 Subdirectories contain sample code for corresponding tasks:
-- mapping_localization: mapping and localization task. The sample code for an agent moving in spiral motion with 3x3 observations and 3x3 queries is provided.
-- mnist_recall: associative recall + classification task on mnist digits.
+- **mapping_localization**: mapping and localization task. The sample code for an agent moving in spiral motion with 3x3 observations and 3x3 queries is provided.
+- **mnist_recall**: associative recall + classification task on mnist digits.
 
 ## Usage
 - The code in each directory is self-contained. Training can be invoked by calling:
