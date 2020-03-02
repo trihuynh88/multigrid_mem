@@ -25,7 +25,16 @@ python main.py
 **MNIST Associative Recall & Classification:**<br/>
 <img src="./figures/mnist_recall_loss.png" width="500"/>
 
-- Inference visualization is generated periodically during training, and saved in CHECKPOINT_DIR/[TIME-STEP]. The interval for saving visualization can be controlled by SAVE_VIS_INTERVAL in constants.py. 
+- Inference visualization is generated periodically during training, and saved in CHECKPOINT_DIR/[TIME-STEP]. The interval for saving visualization can be controlled by SAVE_VIS_INTERVAL in constants.py. Sample visualizations are provided below:
+
+**Mapping & Localization Task:**<br/>
+See the [project page](http://people.cs.uchicago.edu/~trihuynh/multigrid_mem/) for annotations and more demos.<br/>
+<img src="./figures/localization_vis.gif" width="500"/>
+
+**MNIST Associative Recall & Classification:**<br/>
+Top row visualizes the input sequence. Bottom row shows the query image and the predicted output class of the following digit aligned to their corresponding positions in the top row.<br/>
+<img src="./figures/mnist_recall_vis.jpg" width="500"/>
+
 
 ## Acknowledgement
 Part of the code structure was adapted from miyosuda's [implementation](https://github.com/miyosuda/async_deep_reinforce) of A3C.
