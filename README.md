@@ -21,7 +21,7 @@ python main.py
 ### Mapping & Localization Task:
 ![mapping_localization](./figures/localization_loss.png)
 ### MNIST Associative Recall & Classification:
-![mnist_recall](./figures/mnist_recall.png)
+![mnist_recall](./figures/mnist_recall_loss.png)
 
 - Inference visualization is generated periodically during training, and saved in CHECKPOINT_DIR/[TIME-STEP]. The interval for saving visualization can be controlled by SAVE_VIS_INTERVAL in constants.py. 
 
