@@ -13,11 +13,17 @@ Subdirectories contain sample code for corresponding tasks:
 - mnist_recall: associative recall + classification task on mnist digits.
 
 ## Usage
-The code in each directory is self-contained. The training can be invoked by calling:
+- The code in each directory is self-contained. Training can be invoked by calling:
 ```
 python main.py
 ```
-Inference visualization is generated periodically during training, and saved in CHECKPOINT_DIR/[TIME-STEP]. The interval for saving visualization can be controlled by SAVE_VIS_INTERVAL in constants.py. 
+- Learning curves should look like the following:
+### Mapping & Localization Task:
+![mapping_localization](./figures/localization_loss.png)
+### MNIST Associative Recall & Classification:
+![mnist_recall](./figures/mnist_recall.png)
+
+- Inference visualization is generated periodically during training, and saved in CHECKPOINT_DIR/[TIME-STEP]. The interval for saving visualization can be controlled by SAVE_VIS_INTERVAL in constants.py. 
 
 ## Acknowledgement
 Part of the code structure was adapted from miyosuda's [implementation](https://github.com/miyosuda/async_deep_reinforce) of A3C.
