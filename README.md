@@ -19,9 +19,10 @@ python main.py
 ```
 - Learning curves should look like the following:
 ### Mapping & Localization Task:
-![mapping_localization](./figures/localization_loss.png)
+<img src="./figures/localization_loss.png" width="500"/>
+
 ### MNIST Associative Recall & Classification:
-![mnist_recall](./figures/mnist_recall_loss.png)
+<img src="./figures/mnist_recall_loss.png" width="500"/>
 
 - Inference visualization is generated periodically during training, and saved in CHECKPOINT_DIR/[TIME-STEP]. The interval for saving visualization can be controlled by SAVE_VIS_INTERVAL in constants.py. 
 
