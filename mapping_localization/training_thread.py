@@ -325,7 +325,7 @@ class TrainingThread(object):
                )
           loss_output_total = list_output[0]
                    
-          print("Step {}: loss = {}, lr = {}".format(self.global_t,loss_output_total, cur_learning_rate))
+          print("Step {}: loss = {}".format(self.global_t,loss_output_total))
 
           self._record_params(sess, summary_writer, summary_op, loss_input, loss_output_total, self.global_t)
 

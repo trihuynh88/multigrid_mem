@@ -108,13 +108,13 @@ class TrainingThread(object):
       for vis_ind in range(self.batch_size):
           vis_width = 28*num_steps + 5*(num_steps-1)
           vis_height = 28*2 + 5
-          vis_img = np.ones((vis_height,vis_width))*(0.5)
+          vis_img = np.ones((vis_height,vis_width))*(127)
           for step in range(num_steps):
               vis_img[:28, step*(28+5):step*(28+5)+28] = batch_input[step,vis_ind,:,:]
           vis_img[28+5:, chosen_ind*(28+5):chosen_ind*(28+5)+28] = batch_input2[vis_ind,:,:]
           scale_factor = 10
           vis_img_scaled = np.kron(vis_img, np.ones((scale_factor,scale_factor)))
-          vis_img_scaled = (vis_img_scaled*255).astype(np.uint8)
+          vis_img_scaled = vis_img_scaled.astype(np.uint8)
           vis_img_scaled_3chan = np.stack((vis_img_scaled, vis_img_scaled, vis_img_scaled),axis=-1)
           cur_pred = prediction_output[vis_ind,:].argmax(-1)
           font                   = cv2.FONT_HERSHEY_SIMPLEX
