@@ -1,6 +1,16 @@
 # Multigrid Neural Memory
 The repository contains sample implementations for the [Multigrid Neural Memory](https://arxiv.org/abs/1906.05948) architectures.
 
+To cite this work, please use
+```
+@INPROCEEDINGS{HuynhICML2020,
+  author = {Tri Huynh and Michael Maire and Matthew R. Walter},
+  title = {Multigrid Neural Memory},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year = {2020}
+}
+```
+
 ## Dependency
 - Tensorflow 1.15
 - Python 2.7
