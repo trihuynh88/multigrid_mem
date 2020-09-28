@@ -1,7 +1,7 @@
 # Multigrid Neural Memory
 The repository contains sample implementations for the [Multigrid Neural Memory](https://arxiv.org/abs/1906.05948) architectures.
 
-To cite this work, please use
+To cite this work, please use:
 ```
 @INPROCEEDINGS{HuynhICML2020,
   author = {Tri Huynh and Michael Maire and Matthew R. Walter},
